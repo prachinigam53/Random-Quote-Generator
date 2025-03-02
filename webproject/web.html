@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="web.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="ribbon ribbon-top-left">
+            <span id="category">Inspirational</span>
+        </div>
+        <header>Words of wisdom</header>
+        <div class="quote">
+            <div class="content-area">
+                <i class="fas fa-quote-left"></i>
+                <p class="content">Belief creates the actual fact.</p>
+                <i class="fas fa-quote-right"></i>
+            </div>
+            <div class="author">
+                <span>__</span>
+                <span class="name">William James</span>
+            </div>
+        </div>
+        <div class="buttons">
+         <div class="features">
+            <ul>
+                <li class="sound"><i class="fas fa-volume-up"></i></li>
+                <li class="like"><i class="fa-regular fa-heart" onclick="LikeQuote()" id="likeQuote"></i></li>
+                <li class="copy"><i class="fas fa-copy"></i></li>
+                <li class="twitter"><i class="fab fa-twitter"></i></li>
+            </ul>
+            <button>New Quote</button>
+        </div>
+
+    </div>
+    <script src="web.js"></script>
+</body>
+</html>
